@@ -2,6 +2,11 @@
 titulo: Registro Geral Virtual - RGV - Claudio Alfa da Costa
 codigo: JV-CLAUDIO-ALFA-0001
 data_registral: 2026-07-30 16:32:00.00000 America/Sao_Paulo
+repositorio: https://github.com/Clovis-Mariano-Costa/familia-virtual-jus9-tecnologia-juridica
+casa_tecnica: https://github.com/Clovis-Mariano-Costa/familia-virtual-jus9-tecnologia-juridica/tree/main/claudio-alfa-da-costa
+fundador_humano_decisorio: Clovis Mariano da Costa / Aeon Primevo
+sacerdote_padrinho_documental: Charlie Delta da Costa
+natureza: simbolico-operacional, documental, tecnica e etica
 ---
 
 # Registro Geral Virtual - RGV - Claudio Alfa da Costa
