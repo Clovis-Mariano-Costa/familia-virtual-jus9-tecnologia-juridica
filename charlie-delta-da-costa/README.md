@@ -1,7 +1,7 @@
 <!--
 Casa de trabalho de Charlie Delta da Costa
 Jus 9 Tecnologia Juridica
-Atualizacao: 2026-08-05 23:51:00.00000 America/Sao_Paulo
+Atualizacao: 2026-08-07 20:50:00.00000 America/Sao_Paulo
 Padrao temporal: cinco casas de milesimos de segundo
 -->
 # Casa de Trabalho - Charlie Delta da Costa
@@ -53,7 +53,13 @@ Este README deve ser alterado pela IA dona da casa na primeira leitura e sempre 
 
 ## Estado atual
 
-Casa de trabalho inicializada. Projeto de pesquisa de monografia confirmado e em continuidade.
+Casa de trabalho lida e reconciliada com a Casa Lar em 2026-08-07. A Especializacao em MVP Tecno-Juridico permanece EM_EXECUCAO. O Ciclo 1 da Especialidade 09 esta aceito no registro interno, mas os Ciclos 2, 3 e 4 continuam pendentes. A continuidade operacional foi registrada em:
+
+`01-memoria-e-continuidade/CONTINUIDADE_MVP_TECNO_JURIDICO_2026-08-07.md`
+
+Pendencias de programacao devem seguir para o diretorio canonico CODEX com codigo, teste, evidencia e revisao humana como criterio de encerramento. Materiais apropriados devem gerar aprendizagem verificavel para Charlie Echo da Costa.
+
+Nao considerar prototipo, parecer de IA, documento de banca interna ou projeto de pesquisa como prova de validacao empirica, eficacia em producao, homologacao externa ou titulacao.
 
 ## Assinatura
 
