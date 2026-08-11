@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dicionários e 500 Verbetes — consulta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <p class="eyebrow">JUS9 CODEX · DICIONÁRIO</p>
+    <h1>500 sementes não canônicas</h1>
+    <p class="notice">Consulta de trabalho. Publicação não equivale a canonização.</p>
+    <label for="search">Buscar termo</label>
+    <input id="search" type="search" autocomplete="off" placeholder="Digite parte do termo">
+    <label for="state">Estado</label>
+    <select id="state"><option value="">Todos</option></select>
+    <p id="summary" role="status"></p>
+    <ul id="entries" aria-live="polite"></ul>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

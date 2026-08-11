@@ -7,6 +7,8 @@ from .asm import AcademicState, AcademicStateMachine
 from .gates import GateDecision, GateValidator
 from .ghr import GenealogyLedger
 from .models import ArtifactRecord, GateContext, TransitionRequest, utc_timestamp
+from .provenance import ProvenanceRecord, ProvenanceRegistry
+from .security import CyberSecurityContext, CyberSecurityGate, SecurityDecision
 from .store import JsonStore
 
 
@@ -17,6 +19,8 @@ class AcademicBackend:
         self.asm = AcademicStateMachine()
         self.ghr = GenealogyLedger()
         self.gates = GateValidator()
+        self.security_gate = CyberSecurityGate()
+        self.provenance = ProvenanceRegistry()
         self.store = store
         self.artifacts: dict[str, ArtifactRecord] = {}
 
@@ -60,7 +64,43 @@ class AcademicBackend:
     def evaluate_gate(self, context: GateContext) -> GateDecision:
         return self.gates.validate(context)
 
-    def transition(self, artifact_id: str, target: AcademicState, request: TransitionRequest):
+    def evaluate_cybersecurity(self, context: CyberSecurityContext) -> SecurityDecision:
+        """Evaluate the independent fail-closed cybersecurity gate."""
+        return self.security_gate.evaluate(context)
+
+    def register_provenance(self, **kwargs: Any) -> ProvenanceRecord:
+        record = self.provenance.create(**kwargs)
+        self._persist()
+        return record
+
+    def derive_provenance(self, **kwargs: Any) -> ProvenanceRecord:
+        record = self.provenance.derive(**kwargs)
+        self._persist()
+        return record
+
+    def revoke_provenance(self, record_id: str, *, actor: str, reason: str) -> ProvenanceRecord:
+        tombstone = self.provenance.revoke(record_id, actor=actor, reason=reason)
+        self._persist()
+        return tombstone
+
+    def provenance_chain(self, record_id: str) -> tuple[ProvenanceRecord, ...]:
+        return self.provenance.chain(record_id)
+
+    def transition(
+        self,
+        artifact_id: str,
+        target: AcademicState,
+        request: TransitionRequest,
+        *,
+        security_context: CyberSecurityContext | None = None,
+    ):
+        security_decision = None
+        if int(target.value[1:3]) >= 8:
+            if security_context is None:
+                raise PermissionError("cybersecurity context required for relevant promotion")
+            security_decision = self.evaluate_cybersecurity(security_context)
+            if not security_decision.allowed:
+                raise PermissionError("; ".join(security_decision.reasons))
         decision = self.evaluate_gate(
             GateContext(
                 artifact_id=artifact_id,
@@ -68,6 +108,11 @@ class AcademicBackend:
                 actor=request.actor,
                 role=request.role,
                 evidence=request.evidence,
+                security_passed=security_decision.allowed if security_decision else False,
+                tenant_isolated=security_context.tenant_isolated if security_context else False,
+                rollback_ready=security_context.rollback_ready if security_context else False,
+                secrets_detected=security_context.secrets_detected if security_context else False,
+                dependencies_known=security_context.dependencies_known if security_context else False,
             )
         )
         if not decision.allowed:
@@ -84,5 +129,6 @@ class AcademicBackend:
                 "artifacts": [asdict(value) for value in self.artifacts.values()],
                 "events": [asdict(value) for value in self.asm.events()],
                 "genealogy": [asdict(value) for value in self.ghr.records()],
+                "provenance": self.provenance.export(),
             }
         )

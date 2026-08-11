@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "jus9://schemas/provenance-record/v1",
+  "title": "JUS9 ProvenanceRecord",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["record_id", "artifact_id", "version", "source", "evidence", "agent", "activity", "timestamp", "classification", "permission", "epistemic_state", "confidence", "dependencies", "parent_ids", "destination", "nature", "sha256"],
+  "properties": {
+    "record_id": {"type": "string", "minLength": 1},
+    "artifact_id": {"type": "string", "minLength": 1},
+    "version": {"type": "string", "minLength": 1},
+    "source": {"type": "string", "minLength": 1},
+    "evidence": {"type": "array", "items": {"type": "string", "minLength": 1}, "minItems": 1},
+    "agent": {"type": "string", "minLength": 1},
+    "activity": {"type": "string", "minLength": 1},
+    "timestamp": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{5}Z$"},
+    "classification": {"type": "string", "minLength": 1},
+    "permission": {"type": "string", "minLength": 1},
+    "epistemic_state": {"enum": ["DOCUMENTADO", "RECONSTRUCAO", "INFERENCIA", "ASSOCIACAO", "HIPOTESE", "SIMULACAO", "DESCONHECIDO"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "dependencies": {"type": "array", "items": {"type": "string"}},
+    "parent_ids": {"type": "array", "items": {"type": "string"}},
+    "destination": {"type": "string", "minLength": 1},
+    "nature": {"type": "string", "minLength": 1},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "artifact_state": {"enum": ["ATIVO", "HISTORICO", "SUBSTITUIDO", "PENDENTE", "CONFLITANTE", "REVOGADO"]},
+    "supersedes": {"type": ["string", "null"]}
+  }
+}
