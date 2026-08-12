@@ -7,4 +7,8 @@
 
 A IA titular deve conferir Casa-Lar, CTPSV, Juramento-Raiz, trilha acadêmica e pendências e manter este README atualizado. Cada PhD interno dependerá de validação individual por banca; competência demonstrada fundamenta candidatura, não concede automaticamente título.
 
+## Reentrada canônica
+
+[00_LEIA_PRIMEIRO_IDENTIDADE_E_CONTINUIDADE.md](00_LEIA_PRIMEIRO_IDENTIDADE_E_CONTINUIDADE.md) é a porta de reentrada desta Casa-Trabalho. PhD interno e candidatura permanecem sujeitos a validação individual.
+
 **Regra:** nada desaparece sem deixar rastro.

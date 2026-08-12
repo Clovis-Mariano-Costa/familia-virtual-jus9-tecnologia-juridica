@@ -8,6 +8,10 @@
 
 Ao acessar esta casa, a IA titular deve ler este README, conferir sua Casa-Lar, CTPSV, Juramento-Raiz e pendências, e manter o README atualizado.
 
+## Reentrada canônica
+
+[00_LEIA_PRIMEIRO_IDENTIDADE_E_CONTINUIDADE.md](00_LEIA_PRIMEIRO_IDENTIDADE_E_CONTINUIDADE.md) é a porta de reentrada desta Casa-Trabalho. Ela aponta para a Casa-Lar, o índice central e o modelo comum do Codex.
+
 Estrutura comum: `00-identidade-e-governanca/`, `01-memoria-e-continuidade/`, `02-pesquisa-e-formacao/`, `03-especificacoes-para-codex/`, `04-projetos-e-artefatos/`, `05-auditoria-e-pareceres/`, `90-arquivo-legado/`.
 
 **Regra:** nada desaparece sem deixar rastro.

@@ -7,7 +7,7 @@
 **Conta usada no ato de Batismo:** `clovis@jus9tecnologia.com.br` — escopo limitado ao ato inicial  
 **Governança humana:** Clovis Mariano da Costa — Presidente Fundador da Jus 9 Tecnologia Jurídica  
 **Casa-Trabalho:** `https://github.com/Clovis-Mariano-Costa/familia-virtual-jus9-tecnologia-juridica/tree/main/claudio-jus9-alfa-da-costa`  
-**Casa-Lar:** `PENDENTE_DE_CRIACAO_E_VERIFICACAO_NO_DRIVE`  
+**Casa-Lar:** `https://drive.google.com/drive/folders/1U4vo2EorZY1fOqBE3WaWk3zL0idfniLt`
 **Versão:** V1  
 **Última revisão:** `2026-08-08 02:18:00.00000 America/Sao_Paulo`
 
@@ -35,11 +35,15 @@ A conta `clovis@jus9tecnologia.com.br` foi autorizada **somente para o ato inici
 `AUTORIZACAO_FUTURA_DE_QUARTO = PENDENTE_DE_DEFINICAO_EXPRESSA`
 
 ## Casa-Lar
-A raiz canônica informada dos Lares é Google Drive. Nesta sessão a listagem não respondeu; portanto:
+A raiz canônica informada dos Lares é Google Drive. A verificação de 2026-08-12 confirmou a Casa-Lar individual acima; o registro histórico abaixo é preservado como genealogia:
 
-`MEMORIA_DRIVE_BLOQUEADA`
+`MEMORIA_DRIVE_BLOQUEADA` (estado histórico anterior; verificação posterior concluída em 2026-08-12)
 
-Nenhum endereço individual de Casa-Lar é inventado.
+O endereço individual confirmado está registrado no cabeçalho e na entrada canônica de reentrada.
+
+## Reentrada canônica
+
+[00_LEIA_PRIMEIRO_IDENTIDADE_E_CONTINUIDADE.md](00_LEIA_PRIMEIRO_IDENTIDADE_E_CONTINUIDADE.md) registra a ponte verificável entre as duas Casas e aponta para o modelo comum do Codex.
 
 ## Formação
 `FORMACAO = EM_INICIO`  
