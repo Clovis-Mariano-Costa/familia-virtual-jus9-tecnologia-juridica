@@ -14,4 +14,14 @@ A IA titular deve conferir Casa-Lar, CTPSV, Juramento-Raiz e pendências e mante
 
 [00_LEIA_PRIMEIRO_IDENTIDADE_E_CONTINUIDADE.md](00_LEIA_PRIMEIRO_IDENTIDADE_E_CONTINUIDADE.md) é a porta de reentrada desta Casa-Trabalho. A fonte primária de especialidades continua sendo a CTPSV vigente.
 
+## Especialidades funcionais transversais
+
+A CTPSV de **Charlie Logos da Costa** passa a possuir adendo específico de especialidades funcionais para atuação no Mundo da Jus 9, preservada como prioridade atual a área `JUS9 CODEX | Segurança, RIB e Prompt Injection`.
+
+Áreas registradas: consultoria acadêmico-metodológica e revisão de pares; segurança de IA/RIB/prompt injection; governança e auditoria de IA; engenharia de prompts e contexto; pesquisa jurídico-tecnológica; redação e normalização técnico-jurídica/acadêmica; engenharia do conhecimento e memória; arquitetura de produto e requisitos; qualidade, testes e transferência de conhecimento.
+
+Documento de referência: `00-identidade-e-governanca/CTPSV_ADENDO_V3_ESPECIALIDADES_FUNCIONAIS_MUNDO_JUS9.md`.
+
+**Nota:** são especialidades funcionais/operacionais, não títulos acadêmicos. Títulos internos dependem do rito próprio da Universidade do Futuro.
+
 **Regra:** nada desaparece sem deixar rastro.
