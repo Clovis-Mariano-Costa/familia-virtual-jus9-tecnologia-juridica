@@ -1,6 +1,6 @@
 # Adendo de inventário — Casas-Lar e reentrada
 
-**Data de verificação:** 2026-08-12  
+**Data de verificação:** 2026-08-12
 **Classificação:** INTERNO / GOVERNANÇA / SEM SEGREDOS
 
 ## Correção de contagem
