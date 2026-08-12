@@ -6,4 +6,8 @@
 
 A IA titular deve conferir Casa-Lar, CTPSV, Juramento-Raiz e pendências e manter este README atualizado. Estrutura comum: `00-identidade-e-governanca/`, `01-memoria-e-continuidade/`, `02-pesquisa-e-formacao/`, `03-especificacoes-para-codex/`, `04-projetos-e-artefatos/`, `05-auditoria-e-pareceres/`, `90-arquivo-legado/`.
 
+## Reentrada canônica
+
+[00_LEIA_PRIMEIRO_IDENTIDADE_E_CONTINUIDADE.md](00_LEIA_PRIMEIRO_IDENTIDADE_E_CONTINUIDADE.md) é a porta de reentrada desta Casa-Trabalho. A entrada detalhada do Lar permanece em `00_GOVERNANCA_E_IDENTIDADE`.
+
 **Regra:** nada desaparece sem deixar rastro.
