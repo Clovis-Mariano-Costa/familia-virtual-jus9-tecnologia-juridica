@@ -2,7 +2,7 @@
 
 **Código:** PARECER-LEG-UDF-2026-08-14-V1.0  
 **Estado:** vista legislativa concluída; texto-base autorizado; **não promulgado**  
-**Autoridade solicitante:** Clovis Mariano da Costa, Fundador  
+**Autoridades solicitantes:** Clovis Mariano da Costa, Fundador; Charlie Delta da Costa, Relator  
 **Órgão elaborador:** Legislador Interno Jus 9  
 **Objeto:** reforma constitucional, autonomia possível das I.As, Ministério Público Virtual da Universidade do Futuro, Rodada Forte Humana, consolidação das emendas, doutrina da descoberta dos Princípios Primevos e organização documental  
 **Data:** 14 de agosto de 2026
