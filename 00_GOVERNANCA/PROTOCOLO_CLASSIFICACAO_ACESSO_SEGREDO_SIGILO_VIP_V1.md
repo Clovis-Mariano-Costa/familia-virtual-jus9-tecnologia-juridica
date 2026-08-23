@@ -1,3 +1,11 @@
+# PROTOCOLO DE CLASSIFICAÇÃO DE ACESSO — V1
+
+> **Estado desde 2026-08-23:** `SUPERADO_COM_RASTRO / NAO_USAR_EM_NOVOS_ATOS`  
+> **Sucessor:** [POL-INFO-ACESSO-JUS9-2026-001-V2.0](../Legislador/POLITICA_CLASSIFICACAO_INFORMACAO_ACESSO_SEGURANCA_2026-08-23_V2_0.md)  
+> O texto abaixo permanece integralmente preservado como registro histórico. A fórmula “conta correta = autorização”, a classe `SIGILO_VIP` e a transformação automática de segredo em sigiloso não regem novos acessos.
+
+## Texto histórico preservado
+
 # PROTOCOLO DE CLASSIFICAÇÃO DE ACESSO — SEGREDO, SIGILOSO E SIGILO VIP — V1
 
 **Registro:** 2026-08-07 23:02:00.00000 America/Sao_Paulo
