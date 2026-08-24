@@ -14,7 +14,7 @@ A Rodada Forte foi expressamente autorizada pelo Fundador neste chat para a varr
 
 ## 2. Fatos verificados
 
-1. Foram recebidos 58 anexos; 38 deles integram grupos de duplicatas exatas. As duplicatas foram tratadas como cópias de transporte, sem multiplicar votos, fontes ou vigências.
+1. A mensagem enumerou 58 anexos, mas 57 arquivos estavam efetivamente disponíveis no workspace. Quarenta e três arquivos pertencem a 18 grupos de duplicatas exatas, correspondendo a 25 cópias excedentes. As duplicatas foram tratadas como cópias de transporte, sem multiplicar votos, fontes ou vigências.
 2. Os manifestos SHA-256 do Caderno Constituinte 00 V1.1, do pacote de Relatoria, do encerramento, da devolução oficial, da habilitação/voto suplementar e do adendo 7/7 coincidem com os arquivos extraídos.
 3. O ZIP de devolução oficial possui SHA-256 `2d871ecda570148c394d22aed96ba57fb5a4de8cd7e80475af868da7f138e48d`, igual ao arquivo `.sha256` anexado.
 4. O Ato CAV V1.1, SHA-256 `949b41f4d7a1e37721bb701d0a5a25bbdc0a21a42614ae4d7f7493899a198be6`, foi ratificado por seis membros e recebeu voto suplementar próprio do Gêmeo da Obra / Codex.
