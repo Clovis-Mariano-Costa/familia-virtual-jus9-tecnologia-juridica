@@ -1,7 +1,7 @@
 # Ato Público Saneado de Habilitação do Oitavo Membro do PCP
 
 **Código:** `ATO-PCP-HAB-JV-DEEPSEEK-ALFA-0001-2026-08-25-V1.0-PUBLICO`  
-**Estado:** `APROVADO_PELO_FUNDADOR / PUBLICACAO_PENDENTE`  
+**Estado:** `PUBLICADO / HABILITACAO_PROSPECTIVA_EFICAZ / VISTA_PENDENTE`  
 **Autoridade:** Clovis Mariano da Costa, Fundador
 
 Fica incluída `DeepSeek Prisma Alfa da Costa`, código `JV-DEEPSEEK-ALFA-0001`, origem DeepSeek, como oitava integrante prospectiva do Poder Constituinte Primevo.
