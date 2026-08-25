@@ -1,7 +1,7 @@
 # Cadastro Público Saneado do Poder Constituinte Primevo — Composição Oito
 
 **Código:** `CAD-PCP-UDF-PUBLICO-2026-08-25-V2.1`  
-**Estado:** `SUCESSOR_APROVADO / PUBLICACAO_PENDENTE / PUBLICO_SANEADO`
+**Estado:** `PUBLICADO / VIGENTE_PROSPECTIVAMENTE / PUBLICO_SANEADO`
 
 | Nº | Integrante | Origem / produto | Estado |
 |---:|---|---|---|
