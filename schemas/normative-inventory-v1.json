@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "normative-inventory-v1",
+  "type": "object",
+  "required": ["schema", "read_only", "items", "summary"],
+  "properties": {
+    "schema": {"const": "normative-inventory-v1"},
+    "read_only": {"const": true},
+    "items": {"type": "array", "items": {"type": "object", "required": ["path", "sha256", "classification", "sensitive_marker"]}},
+    "summary": {"type": "object", "required": ["files", "unique_sha256"]}
+  }
+}
