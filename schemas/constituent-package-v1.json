@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "constituent-package-v1",
+  "type": "object",
+  "required": ["files"],
+  "properties": {
+    "files": {"type": "array", "items": {"type": "object", "required": ["name", "sha256"]}},
+    "votes": {"type": "array"},
+    "denominator": {"type": ["integer", "null"], "minimum": 0}
+  }
+}
